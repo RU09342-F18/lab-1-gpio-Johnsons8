@@ -1,3 +1,7 @@
+To make this program run you must build the program in CCS and then once it builds successfully, then plug in the appropiate micro-controller and then load the .out file onto the board and the lights will start blinking.
+
+This program works by having an infinite loop that counts down on a number and every time that count reaches a number divisible by a given value for each LED, that LED is toggled on/off, whichever is opposite its last state. Each board was slightly different in this because for the G2553 the LEDs were P1.0 and P1.6 whereas the other board was P1.0 and P2.0.
+
 # Multiple Blink
 Now that we have blinked at least 1 LED, what about blinking multiple LEDS at the same time? The minimum that you need to develop is blinking at least two LEDs at two different rates. Although I am not going to give you a speed, you should probably pick a rate which is visible to a standard human. I really hope that you take this further and perform some of the extra work for this part of the lab exercise.
 
